@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/material-oficina-teclado-taza-cafe-tarjeta-anteojos-vela-auriculares-sobre-fondo-azul_23-2148041892.jpg?w=996);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6; /* Aumenta el espacio entre líneas para mejorar la legibilidad */
+}
+
+/* Estilos para el encabezado */
+.name {
+    width: 100%;
+    height: 400px;
+    background: #1B4965;
+    transform: skewY(-4deg);
+    position: relative;
+    margin-bottom:80px; /* Añade margen inferior para separar del siguiente contenido */
+}
+
+.name .content {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.name .content .p_1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 0px; /* Reduce el espacio entre el nombre y la edad */
+    letter-spacing: 2px;
+}
+
+.name .content .p_2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 0;
+    letter-spacing: 10px;
+}
+
+.name .img {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: skewY(5deg);
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para las secciones de información */
+.info {
+    width: 90%;
+    margin: 0 auto 5px; /* Añade margen inferior para separar del siguiente contenido */
+    padding: 10px;
+    border-radius: 50px; /* Reducimos el radio de borde para que se vea menos pronunciado */
+    background: #b3c1fe;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una ligera sombra para destacar */
+}
+
+.info .titulo_seccion {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff; /* Utiliza 'solid' en lugar de 'dashed' para una línea más definida */
+    padding-bottom: 10px; /* Añade espacio entre el título y el contenido */
+}
+
+.info .titulo_info {
+    color: color(from color srgb r g b);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px; /* Reducir el espacio entre el título y el texto */
+}
+
+.info .name_info {
+    color: rgb(52, 49, 49);
+    font-size: 16px;
+    font-weight: normal;
+    display: block; /* Cambia a 'block' para que cada información esté en una línea separada */
+    margin-top: 10px; /* Añade espacio entre cada línea de información */
+    letter-spacing: 0.5px; /* Ajusta el espacio entre letras para mejorar la legibilidad */
+}
